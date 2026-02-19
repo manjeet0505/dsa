@@ -1,0 +1,42 @@
+A linked list is a pointer navigation system.
+
+It’s not about nodes.
+It’s about control over references in memory.
+
+When companies ask LL questions, they’re testing:
+
+Can you track references safely?
+
+Can you modify structure without breaking it?
+
+Can you reason about memory flow step-by-step?
+
+
+The Only Three Operations That Exist in Linked List
+
+Every LL question is built from just these:
+
+1️⃣ Traverse
+
+Move pointer safely
+
+2️⃣ Rewire
+
+Change where a pointer points
+
+3️⃣ Segment
+
+Break list into parts and reconnect later
+
+
+In order to convert the Array Elements into the linked list 
+
+
+Node head = new node(arr[0]);
+Node mover = head;
+for(int i=1;i<arr.length;i++){
+    node temp = new node(arr[i]);
+    mover = temp.next;
+    mover = temp;
+}
+return head;
