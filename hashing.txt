@@ -1,8 +1,0 @@
-(you can declare hash arr of 10*6 inside the main of the code.
-or if u have decide dto declare it globally u can declare it of size 10*7.
-) of Integer values.
-
-
-for Boolean values
-inside the main it should be of 10*7
-outside or globally it should be of 10*8
