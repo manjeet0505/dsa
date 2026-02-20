@@ -16,15 +16,15 @@ The Only Three Operations That Exist in Linked List
 
 Every LL question is built from just these:
 
-1️⃣ Traverse
+1️. Traverse
 
 Move pointer safely
 
-2️⃣ Rewire
+2️. Rewire
 
 Change where a pointer points
 
-3️⃣ Segment
+3️. Segment
 
 Break list into parts and reconnect later
 
@@ -40,3 +40,15 @@ for(int i=1;i<arr.length;i++){
     mover = temp;
 }
 return head;
+
+
+Benefits - 
+Nodes can be stored anywhere in memory (not contiguous).
+
+Unlike arrays, elements don’t need continuous memory.
+
+Easy to insert new nodes in the list.
+
+Easy to delete nodes from the list.
+
+No shifting of other elements is required.
