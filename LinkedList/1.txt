@@ -52,3 +52,11 @@ Easy to insert new nodes in the list.
 Easy to delete nodes from the list.
 
 No shifting of other elements is required.
+
+Time Complexity Rules (must remember)
+Operation	                Time
+Access kth node	            O(n)
+Insert at head	            O(1)
+Insert at tail	            O(n)
+Delete node	                O(1) (if prev known)
+Search	                    O(n)
